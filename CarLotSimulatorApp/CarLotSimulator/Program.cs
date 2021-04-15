@@ -20,32 +20,34 @@ namespace CarLotSimulator
             //Now that the Car class is created we can instanciate 3 new cars
             //Set the properties for each of the cars
             //Call each of the methods for each car
-            var carBest = new Car();
-            carBest.Make = "Chevy";
-            carBest.Model = "Equinox";
-            carBest.Year = 2013;
-            carBest.IsDriveable = true;
-            carBest.EngineNoise = "hummmm";
-            carBest.HonkNoise = "honkbeep";
-            carBest.MakeEngineNoise();
-            carBest.MakeHonkNoise();
+            //var carBest = new Car();
+            //carBest.Make = "Chevy";
+            //carBest.Model = "Equinox";
+            //carBest.Year = 2013;
+            //carBest.IsDriveable = true;
+            //carBest.EngineNoise = "hummmm";
+            //carBest.HonkNoise = "honkbeep";
+            //carBest.MakeEngineNoise();
+            //carBest.MakeHonkNoise();
 
-            // Set the properties utilizing the 3 different ways we learned about, one way for each car
-            var newCar1 = new Car() { Make = "Honda", Model = "Fit", Year = 2017, IsDriveable = true, EngineNoise = "Prrrr", HonkNoise = "pip"};
-            newCar1.MakeEngineNoise();
-            newCar1.MakeHonkNoise();
+            //// Set the properties utilizing the 3 different ways we learned about, one way for each car
+            //var newCar1 = new Car() { Make = "Honda", Model = "Fit", Year = 2017, IsDriveable = true, EngineNoise = "Prrrr", HonkNoise = "pip"};
+            //newCar1.MakeEngineNoise();
+            //newCar1.MakeHonkNoise();
 
-            var newCar2 = new Car(2020, "Toyota", "Camery", true, "vroom", "beeeeep");
+            //var newCar2 = new Car(2020, "Toyota", "Camery", true, "vroom", "beeeeep");
 
-            onLot.Cars.Add(carBest);
-            onLot.Cars.Add(newCar1);
-            onLot.Cars.Add(newCar2);
+            //onLot.Cars.Add(carBest);
+            //onLot.Cars.Add(newCar1);
+            //onLot.Cars.Add(newCar2);
 
-            foreach(var vehicles in onLot.Cars)
-            {
-                Console.WriteLine($"{vehicles.Year}, {vehicles.Make}, {vehicles.Model}");
-            }
+            //foreach(var vehicles in onLot.Cars)
+            //{
+            //    Console.WriteLine($"{vehicles.Year}, {vehicles.Make}, {vehicles.Model}");
+            //}
 
+            var car7 = new Car();
+            Console.WriteLine(CarLot.NumberOfCars);
             //*************BONUS X 2*************//
 
             //Create a CarLot class
